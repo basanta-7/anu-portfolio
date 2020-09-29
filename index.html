@@ -37,18 +37,21 @@
 						<!-- Collapsible content -->
 						<div class="collapse navbar-collapse" id="basicExampleNav">
 							<!-- Links -->
-							<ul class="navbar-nav ml-auto">
+							<ul class="navbar-nav ml-auto" id="menu">
 								<li class="nav-item active">
-									<a class="nav-link" href="#">Bio</a>
+									<a class="nav-link" href="#slider">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Video</a>
+									<a class="nav-link" href="#bio">Bio</a>
 								</li>
 								<li class="nav-item">
+									<a class="nav-link" href="#video">Video</a>
+								</li>
+								<!-- <li class="nav-item">
 									<a class="nav-link" href="#">Blog</a>
-								</li>
+								</li> -->
 								<li class="nav-item">
-									<a class="nav-link" href="#">Social</a>
+									<a class="nav-link" href="#social">Social</a>
 								</li>
 							</ul>
 						</div>
@@ -56,7 +59,7 @@
 					<!-- Collapsible content -->
 				</nav>
 				<!-- carousel Starts -->
-				<div class="carousel">
+				<div class="carousel" id="slider">
 					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
@@ -109,7 +112,7 @@
 			</section>
 
 			<!--bio-->
-			<section class="bio">
+			<section id="bio" class="bio">
 				<div class="container big-desktop">
 					<div class="header">
 						<h2 class="section-title">
@@ -184,7 +187,7 @@
 				</div>
 			</section>
 			<!-- Videos -->
-			<section class="team">
+			<section id="video" class="team">
 				<div class="container text-center">
 					<div class="header">
 						<h2 class="section-title" style="color: #e7c443">
@@ -223,12 +226,12 @@
 			</section>
 		
 			<!-- instagram -->
-			<section class="bio" style="background-image: url(img/image3.jpeg);">
+			<section class="bio" style="background-image: url(img/image3.jpeg);" id="social">
 				<div class="container big-desktop">
 					<div class="header">
-						<h2 class="section-title">
+						<!-- <h2 class="section-title">
 							Gallery
-						</h2>
+						</h2> -->
 						<!-- <div class="subtitle">
 							<a href="#" class="btn">Follow me on Instagram</a>
 						</div> -->
@@ -237,27 +240,8 @@
 						<div class="col-md-12">
 							<div class="bio-wrapper">
 								<div class="bio-content">
-									<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/130355d1ea2551eb8537a97b741465b7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="container small-tab">
-					<div class="header">
-						<h2 class="section-title">
-							Gallery
-						</h2>
-						<!-- <div class="subtitle">
-							<a href="#" class="btn main-btn">Follow me on Instagram</a>
-						</div> -->
-					</div>
-					<div class="row main-wrapper-bio">
-						<div class="col-md-12">
-							<div class="bio-wrapper">
-								<div class="bio-content">
-									<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/130355d1ea2551eb8537a97b741465b7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+									<div class='embedsocial-instagram' data-ref="681a5e197a34f9686d8a46ad1cb329dbe2577eee"></div>
+									<script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
 								</div>
 							</div>
 						</div>
@@ -267,94 +251,19 @@
 
 
 			<!-- Footer Section -->
-			<!-- <Footer class="Footer" style="background-color: #ececec;">
+			<Footer class="Footer" style="background-color: #000;">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-5">
-							<div class="footer-info">
-								<div class="footer-logo section-main">
-									anu Subedi
-								</div>
-								<div class="footer-details section-content">
-									Apparently we had reached a great height in the atmo - sphere, for the sky was a dead black, and the stars had ceased to
-									twinkle.
-								</div>
-							</div>
+					<div class="text-center">
+						<div class="footer-social">
+							<a href=""><i class="fab fa-facebook"></i></a>
+							<a href=""><i class="fab fa-youtube"></i></a>
+							<a href=""><i class="fab fa-instagram"></i></a>
+							<a href=""><i class="fab fa-twitter"></i></a>
 						</div>
-						<div class="col-md-3">
-							<div class="footer-info">
-								<div class="footer-link-title section-title text-center">
-									Explore
-								</div>
-								<ul>
-									<li><a href="#" class='footer-links section-content'>Bio</a></li>
-									<li><a href="#" class='footer-links section-content'>Videos</a></li>
-									<li><a href="#" class='footer-links section-content'>Blog</a></li>
-									<li><a href="#" class='footer-links section-content'>Gallery</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="footer-info">
-								<div class="footer-link-title section-title">
-									Join Our Mailing List
-								</div>
-								<div class="footer-contact">
-									<div class="footer-details section-content">
-										Call us for any help
-									</div>
-									<div class="contact-info">
-										1800 - 123 456 789
-									</div>
-								</div>
-								<div class="footer-contact">
-									<div class="footer-details section-content">
-										Email us for support
-									</div>
-									<div class="contact-info">
-										support@example.com
-									</div>
-								</div>
-								<div class="footer-contact">
-									<div class="footer-social section-content">
-										<ul class="footer-social-item">
-											<li>
-												<a href="#">
-													<i class="fab fa-facebook"></i>
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<i class="fab fa-instagram"></i>
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<i class="fab fa-youtube"></i>
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<i class="fab fa-twitter"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr />
-					<div class="footer-copyright">
-						<div class="copyright-left">
-							Developed with <i class="fa fa-heart"></i> by <i class="fa fa batman"></i> Batman
-						</div>
-						<div class="copyright-right">
-							&copy; All Rights Reserved To Banquet
-						</div>
+						<p class="developed-by">Developed with <i class="fa fa-heart"></i> by <i class="fa fa batman"></i> Batman</p>
 					</div>
 				</div>
-			</Footer> -->
+			</Footer>
 
 		</div>
 
@@ -371,5 +280,22 @@
 		<script type="text/javascript" src="js/mdb.min.js"></script>
 		<!-- Custom Js -->
 		<script type="text/javascript" src="js/main.js"></script>
+		<!-- jquery nav -->
+		<script type="text/javascript" src="js/jquery.nav.js"></script>
+		<script>
+			$('#menu').onePageNav({
+				currentClass: 'active',
+				changeHash: false,
+				scrollSpeed: 750,
+				scrollThreshold: 0.5,
+				filter: '',
+				easing: 'swing',
+			});
+		</script>
+		<!-- smooth scroll js -->
+		<script src="js/smooth-scroll.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
 	</body>
 </html>
